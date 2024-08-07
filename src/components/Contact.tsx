@@ -1,5 +1,3 @@
-import Button from "./Button";
-
 function Contact() {
   return (
     <div className="my-32">
