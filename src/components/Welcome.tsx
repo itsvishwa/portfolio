@@ -9,7 +9,7 @@ function Welcome() {
   const style: string =
     "text-lg text-white hover:text-[#ff2a9c] hover:cursor-pointer";
   return (
-    <div className="flex flex-row justify-between mt-32">
+    <div className="flex flex-row justify-between">
       <div className="flex flex-col justify-center gap-2">
         <p className="opacity-60">Hi there,</p>
         <p className="font-bold text-4xl">I’m Vishwa Sandaruwan</p>
