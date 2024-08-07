@@ -5,6 +5,7 @@ import ScrollDownIcon from "./components/ScrollDownIcon";
 import Skills from "./components/Skills";
 import { ShootingStars } from "./components/ui/shooting-stars";
 import { StarsBackground } from "./components/ui/stars-background";
+import Volunteering from "./components/Volunteering";
 import Welcome from "./components/Welcome";
 
 export default function App() {
@@ -22,6 +23,7 @@ export default function App() {
         <About />
         <Education />
         <Skills />
+        <Volunteering />
       </div>
     </div>
   );
