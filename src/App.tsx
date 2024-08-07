@@ -1,4 +1,6 @@
 import About from "./components/About";
+import Awards from "./components/Awards";
+import Contact from "./components/Contact";
 import Education from "./components/Education";
 import Navigation from "./components/Navigation";
 import Projects from "./components/Projects";
@@ -26,6 +28,11 @@ export default function App() {
         <Skills />
         <Projects />
         <Volunteering />
+        <Awards />
+        <Contact />
+        <div className="py-4 flex flex-row justify-center gradient-border-top">
+          Made with ❤️ by Vishwa Sandaruwan
+        </div>
       </div>
     </div>
   );
