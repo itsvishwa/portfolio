@@ -25,7 +25,7 @@ function Welcome() {
       <img
         src={profileImg}
         alt="Profile Image"
-        className="object-contain w-96"
+        className="object-contain w-[480px]"
       />
     </div>
   );
