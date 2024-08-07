@@ -6,7 +6,7 @@ interface Props {
 
 function AwardCard({ title, organized, description }: Props) {
   return (
-    <div className="px-8 py-4 bg-[#1d1d1d] rounded-lg">
+    <div className="px-8 py-4 bg-gradient-to-r from-[#151515] via-[#212121] to-[#1f1f1f] hover:shadow-md hover:shadow-[#ff23656f] transition duration-700 rounded-lg">
       <p className="font-bold ">{title}</p>
       <p className="opacity-40 text-sm">Organized by {organized}</p>
       <p className="mt-4 opacity-60">{description}</p>
