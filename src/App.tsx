@@ -1,7 +1,9 @@
+import Navigation from "./components/Navigation";
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!<button className="btn btn-primary">Primary</button>
-    </h1>
+    <div className="bg-[#131313] text-white min-h-screen w-full px-72 py-8 ">
+      <Navigation />
+    </div>
   );
 }
