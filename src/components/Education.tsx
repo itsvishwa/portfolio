@@ -3,8 +3,8 @@ import EducationTitle from "./EducationTitle";
 
 function Education() {
   return (
-    <div id="education" className="flex flex-col gap-8 mt-32">
-      <p className="font-bold text-4xl">Education</p>
+    <div id="education" className="flex flex-col gap-8 my-32">
+      <p className="font-bold lg:text-4xl text-2xl">Education</p>
       <div>
         <ConfigProvider
           theme={{

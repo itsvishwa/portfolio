@@ -17,7 +17,7 @@ export default function App() {
       <ShootingStars className="absolute top-0 left-0 w-full h-full z-0" />
       <StarsBackground className="absolute top-0 left-0 w-full h-full z-0" />
 
-      <div className="relative px-72 z-10 h-full overflow-y-auto scrollbar-thin scrollbar-thumb-[#AB1759] scrollbar-track-[#131313] ">
+      <div className="relative lg:px-72 px-16 z-10 h-full overflow-y-auto scrollbar-thin scrollbar-thumb-[#AB1759] scrollbar-track-[#131313] ">
         <div className="min-h-screen py-8 w-full flex flex-col justify-between">
           <Navigation />
           <Welcome />

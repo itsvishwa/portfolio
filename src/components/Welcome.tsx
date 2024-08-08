@@ -7,13 +7,17 @@ import Button from "./Button";
 
 function Welcome() {
   const style: string =
-    "text-lg text-white hover:text-[#ff2a9c] hover:cursor-pointer";
+    "text-2xl text-white hover:text-[#ff2a9c] hover:cursor-pointer";
   return (
-    <div className="flex flex-row justify-between">
-      <div className="flex flex-col justify-center gap-2">
-        <p className="opacity-60">Hi there,</p>
-        <p className="font-bold text-4xl">I’m Vishwa Sandaruwan</p>
-        <p className="text-lg">Software Engineer | R&D Enthusiast </p>
+    <div className="flex lg:flex-row flex-col-reverse lg:justify-between items-center gap-4 lg:gap-0">
+      <div className="flex flex-col justify-center items-center lg:items-start gap-2">
+        <p className="opacity-60 lg:text-start text-center">Hi there,</p>
+        <p className="font-bold text-2xl lg:text-4xl lg:text-start text-center">
+          I’m Vishwa Sandaruwan
+        </p>
+        <p className="text-sm lg:text-lg lg:text-start text-center">
+          Software Engineer | R&D Enthusiast{" "}
+        </p>
         <div className="flex gap-4">
           <FaLinkedin className={style} />
           <FaGithub className={style} />
@@ -25,7 +29,7 @@ function Welcome() {
       <img
         src={profileImg}
         alt="Profile Image"
-        className="object-contain w-[480px]"
+        className="object-contain lg:w-[480px] w-[200px]"
       />
     </div>
   );

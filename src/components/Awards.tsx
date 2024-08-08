@@ -3,7 +3,7 @@ import AwardCard from "./AwardCard";
 function Awards() {
   return (
     <div className="my-32">
-      <p className="font-bold text-4xl mb-8">Awards</p>
+      <p className="font-bold lg:text-4xl text-2xl mb-8">Awards</p>
       <div className="flex flex-col gap-4">
         <AwardCard
           title="RevolUX 3.0 - 5th Place"

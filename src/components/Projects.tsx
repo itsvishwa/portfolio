@@ -4,9 +4,12 @@ import parkngo from "./../assets/parkngo.png";
 
 function Projects() {
   return (
-    <div id="projects" className="my-32">
-      <p className="font-bold text-4xl mb-8">Projects</p>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full">
+    <div
+      id="projects"
+      className="my-32 lg:flex lg:flex-col lg:items-start lg:justify-start"
+    >
+      <p className="font-bold text-2xl lg:text-4xl mb-8">Projects</p>
+      <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-4 gap-8  w-full">
         <WobbleCard
           containerClassName="col-span-1 lg:col-span-2 h-full bg-black-800 min-h-[500px] lg:min-h-[300px]"
           className=""
@@ -30,7 +33,7 @@ function Projects() {
             width={540}
             height={540}
             alt="linear demo image"
-            className="absolute -right-4 lg:-right-[20%] filter -bottom-8 object-contain rounded-2xl"
+            className="absolute -right-16 lg:-right-[20%] filter lg:-bottom-8 object-contain rounded-2xl"
           />
         </WobbleCard>
         <WobbleCard containerClassName="col-span-1 bg-pink-800 min-h-[300px]">
@@ -74,7 +77,7 @@ function Projects() {
             width={500}
             height={500}
             alt="linear demo image"
-            className="absolute -right-4 lg:-right-[30%] filter -bottom-16 object-contain rounded-2xl"
+            className="absolute -right-32 lg:-right-[30%] filter -bottom-16 object-contain rounded-2xl"
           />
         </WobbleCard>
       </div>

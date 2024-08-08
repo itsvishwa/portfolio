@@ -2,8 +2,8 @@ import AboutRow from "./AboutRow";
 
 function About() {
   return (
-    <div id="about" className="flex flex-col gap-8 mt-16">
-      <p className="font-bold text-4xl">About</p>
+    <div id="about" className="flex flex-col gap-8 my-32">
+      <p className="font-bold text-2xl lg:text-4xl">About</p>
       <p>
         A third-year Computer Science undergraduate at the University of Colombo
         School of Computing with a strong curiosity for learning new

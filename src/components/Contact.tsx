@@ -4,7 +4,7 @@ function Contact() {
       <p className="font-bold text-4xl mb-8">Contact</p>
       <div>
         <form action="">
-          <div className="flex flex-row justify-between gap-4">
+          <div className="flex lg:flex-row flex-col justify-between gap-4">
             <div className="flex-1">
               <label htmlFor="name">Name</label>
               <br />
