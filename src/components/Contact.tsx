@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <div className="my-32">
+    <div id="contact" className="my-32">
       <p className="font-bold text-4xl mb-8">Contact</p>
       <div>
         <form action="">

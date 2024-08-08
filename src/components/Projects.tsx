@@ -4,7 +4,7 @@ import parkngo from "./../assets/parkngo.png";
 
 function Projects() {
   return (
-    <div className="my-32">
+    <div id="projects" className="my-32">
       <p className="font-bold text-4xl mb-8">Projects</p>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-7xl mx-auto w-full">
         <WobbleCard
