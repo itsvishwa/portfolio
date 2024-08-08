@@ -1,7 +1,7 @@
 function Contact() {
   return (
     <div id="contact" className="my-32">
-      <p className="font-bold text-4xl mb-8">Contact</p>
+      <p className="font-bold text-2xl lg:text-4xl mb-8">Contact</p>
       <div>
         <form action="">
           <div className="flex lg:flex-row flex-col justify-between gap-4">
