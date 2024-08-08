@@ -12,7 +12,7 @@ function Contact() {
                 type="text"
                 id="name"
                 placeholder="Enter your name"
-                className="px-4 py-4 w-full rounded-lg bg-[#1F1F1F] text-white mt-1"
+                className="border border-none focus:outline-[#ff006a] outline-none px-4 py-4 w-full rounded-lg bg-[#1F1F1F] text-white mt-1"
               />
             </div>
             <div className="flex-1">
@@ -22,7 +22,7 @@ function Contact() {
                 type="email"
                 id="email"
                 placeholder="Enter your email"
-                className="px-4 py-4 w-full rounded-lg bg-[#1F1F1F] text-white mt-1"
+                className="border border-none focus:outline-[#ff006a] outline-none px-4 py-4 w-full rounded-lg bg-[#1F1F1F] text-white mt-1"
               />
             </div>
           </div>
@@ -32,8 +32,8 @@ function Contact() {
             <textarea
               id="message"
               rows={5}
-              placeholder="Enter your email"
-              className="px-4 py-4 w-full rounded-lg bg-[#1F1F1F] text-white mt-1"
+              placeholder="Enter your message"
+              className="border border-none focus:outline-[#ff006a] outline-none px-4 py-4 w-full rounded-lg bg-[#1F1F1F] text-white mt-1"
             />
           </div>
           <div className="mt-4 flex flex-row justify-end">
