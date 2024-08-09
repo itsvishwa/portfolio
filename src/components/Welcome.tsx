@@ -19,10 +19,18 @@ function Welcome() {
           Software Engineer | R&D Enthusiast{" "}
         </p>
         <div className="flex gap-4">
-          <FaLinkedin className={style} />
-          <FaGithub className={style} />
-          <FaYoutube className={style} />
-          <AiFillInstagram className={style} />
+          <a href="https://www.linkedin.com/in/itsvishwa/" target="_blank">
+            <FaLinkedin className={style} />
+          </a>
+          <a href="https://github.com/itsvishwa" target="_blank">
+            <FaGithub className={style} />
+          </a>
+          <a href="https://www.youtube.com/@TechMart404" target="_blank">
+            <FaYoutube className={style} />
+          </a>
+          <a href="https://www.linkedin.com/in/itsvishwa/" target="_blank">
+            <AiFillInstagram className={style} />
+          </a>
         </div>
         <Button />
       </div>
