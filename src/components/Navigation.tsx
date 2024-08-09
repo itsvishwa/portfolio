@@ -7,25 +7,25 @@ function Navigation() {
       <div className="lg:flex flex-row gap-8 hidden">
         <a
           href="#about"
-          className="text-white hover:cursor-pointer bg-gradient-to-r from-[#ff007b] to-[#ff2a9c] bg-clip-text hover:text-transparent transition duration-300"
+          className="text-white hover:cursor-pointer bg-gradient-to-r from-[#FF0101] to-[#ff7272] bg-clip-text hover:text-transparent transition duration-300"
         >
           About
         </a>
         <a
           href="#education"
-          className="text-white hover:cursor-pointer bg-gradient-to-r from-[#ff007b] to-[#ff2a9c] bg-clip-text hover:text-transparent transition duration-300"
+          className="text-white hover:cursor-pointer bg-gradient-to-r from-[#FF0101] to-[#ff7272] bg-clip-text hover:text-transparent transition duration-300"
         >
           Education
         </a>
         <a
           href="#projects"
-          className="text-white hover:cursor-pointer bg-gradient-to-r from-[#ff007b] to-[#ff2a9c] bg-clip-text hover:text-transparent transition duration-300"
+          className="text-white hover:cursor-pointer bg-gradient-to-r from-[#FF0101] to-[#ff7272] bg-clip-text hover:text-transparent transition duration-300"
         >
           Projects
         </a>
         <a
           href="#contact"
-          className="text-white hover:cursor-pointer bg-gradient-to-r from-[#ff007b] to-[#ff2a9c] bg-clip-text hover:text-transparent transition duration-300"
+          className="text-white hover:cursor-pointer bg-gradient-to-r from-[#FF0101] to-[#ff7272] bg-clip-text hover:text-transparent transition duration-300"
         >
           Contact
         </a>

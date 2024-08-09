@@ -7,7 +7,7 @@ import Button from "./Button";
 
 function Welcome() {
   const style: string =
-    "text-2xl text-white hover:text-[#ff2a9c] hover:cursor-pointer";
+    "text-2xl text-white hover:text-[#8f8f8f] hover:cursor-pointer ";
   return (
     <div className="flex lg:flex-row flex-col-reverse lg:justify-between items-center gap-4 lg:gap-0">
       <div className="flex flex-col justify-center items-center lg:items-start gap-2">

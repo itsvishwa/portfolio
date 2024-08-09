@@ -12,7 +12,7 @@ function Contact() {
                 type="text"
                 id="name"
                 placeholder="Enter your name"
-                className="border border-none focus:outline-[#ff006a] outline-none px-4 py-4 w-full rounded-lg bg-[#1F1F1F] text-white mt-1"
+                className="border border-none focus:outline-[#FF0101] outline-none px-4 py-4 w-full rounded-lg bg-[#1F1F1F] text-white mt-1"
               />
             </div>
             <div className="flex-1">
@@ -22,7 +22,7 @@ function Contact() {
                 type="email"
                 id="email"
                 placeholder="Enter your email"
-                className="border border-none focus:outline-[#ff006a] outline-none px-4 py-4 w-full rounded-lg bg-[#1F1F1F] text-white mt-1"
+                className="border border-none focus:outline-[#FF0101] outline-none px-4 py-4 w-full rounded-lg bg-[#1F1F1F] text-white mt-1"
               />
             </div>
           </div>
@@ -33,11 +33,11 @@ function Contact() {
               id="message"
               rows={5}
               placeholder="Enter your message"
-              className="border border-none focus:outline-[#ff006a] outline-none px-4 py-4 w-full rounded-lg bg-[#1F1F1F] text-white mt-1"
+              className="border border-none focus:outline-[#FF0101] outline-none px-4 py-4 w-full rounded-lg bg-[#1F1F1F] text-white mt-1"
             />
           </div>
           <div className="mt-4 flex flex-row justify-end">
-            <button className="py-4 px-8 rounded-lg hover:cursor-pointer bg-gradient-to-r from-[#79033C] to-[#bc035c] hover:from-[#79033C] hover:to-[#b42f6f]">
+            <button className="py-4 px-8 rounded-lg hover:cursor-pointer bg-gradient-to-r from-[#b70101] to-[#ff0101] hover:from-[#b70101] hover:to-[#ff3131]">
               Send
             </button>
           </div>
