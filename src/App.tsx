@@ -17,7 +17,7 @@ export default function App() {
       <ShootingStars className="absolute top-0 left-0 w-full h-full z-0" />
       <StarsBackground className="absolute top-0 left-0 w-full h-full z-0" />
 
-      <div className="relative lg:px-72 px-16 z-10 h-full overflow-y-auto scrollbar-thin scrollbar-thumb-[#FF0101] scrollbar-track-[#131313] ">
+      <div className="relative lg:px-72 px-8 z-10 h-full overflow-y-auto scrollbar-thin scrollbar-thumb-[#FF0101] scrollbar-track-[#131313] ">
         <div className="min-h-screen py-8 w-full flex flex-col justify-between">
           <Navigation />
           <Welcome />
@@ -33,10 +33,10 @@ export default function App() {
         <div className="flex flex-row justify-center">
           <div className="relative w-[600px]">
             {/* Gradients */}
-            <div className="absolute inset-x-10 top-0 bg-gradient-to-r from-transparent via-[#8b0000] to-transparent h-[2px] w-3/4 blur-sm" />
-            <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-[#FF0101] to-transparent h-px w-3/4" />
-            <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-[#8b0000] to-transparent h-[5px] w-1/5 blur-sm" />
-            <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-[#ff5858] to-transparent h-px w-1/4" />
+            <div className="absolute lg:inset-x-10 inset-x-8 top-0 bg-gradient-to-r from-transparent via-[#8b0000] to-transparent h-[2px] w-3/4 blur-sm" />
+            <div className="absolute lg:inset-x-20 inset-x-8 top-0 bg-gradient-to-r from-transparent via-[#FF0101] to-transparent h-px w-3/4" />
+            <div className="absolute lg:inset-x-60 inset-x-28 top-0 bg-gradient-to-r from-transparent via-[#8b0000] to-transparent h-[5px] w-1/5 blur-sm" />
+            <div className="absolute lg:inset-x-60 inset-x-28 top-0 bg-gradient-to-r from-transparent via-[#ff5858] to-transparent h-px w-1/4" />
           </div>
         </div>
         <div className="py-4 flex flex-row justify-center gradient-border-top">
