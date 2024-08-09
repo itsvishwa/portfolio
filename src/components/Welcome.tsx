@@ -28,7 +28,7 @@ function Welcome() {
           <a href="https://www.youtube.com/@TechMart404" target="_blank">
             <FaYoutube className={style} />
           </a>
-          <a href="https://www.linkedin.com/in/itsvishwa/" target="_blank">
+          <a href="https://www.instagram.com/vishwa___s/" target="_blank">
             <AiFillInstagram className={style} />
           </a>
         </div>
