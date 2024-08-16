@@ -16,7 +16,7 @@ function Welcome() {
           I’m Vishwa Sandaruwan
         </p>
         <p className="text-sm lg:text-lg lg:text-start text-center">
-          Software Engineer | R&D Enthusiast{" "}
+          3rd Year Computer Science Undergraduate
         </p>
         <div className="flex gap-4">
           <a href="https://www.linkedin.com/in/itsvishwa/" target="_blank">
