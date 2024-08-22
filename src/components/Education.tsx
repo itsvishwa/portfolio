@@ -33,7 +33,7 @@ function Education() {
                     duration="2022 - Present"
                     description1="Bachelor of Science (Hons.) in Computer Science at University of
           Colombo School of Computing (UCSC)"
-                    description2="Current GPA : 3.65 | Director’s List Award"
+                    description2="Current GPA : 3.6394 | Director’s List Award"
                   />
                 ),
               },
