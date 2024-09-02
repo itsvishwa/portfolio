@@ -24,7 +24,7 @@ function Contact() {
                 id="email"
                 name="email"
                 placeholder="Enter your email"
-                className="border border-none focus:outline-[#FF0101] outline-none px-4 py-4 w-full rounded-lg bg-[#1F1F1F] text-white mt-1"
+                className="border border-none focus:outline-[#139B43] outline-none px-4 py-4 w-full rounded-lg bg-[#1F1F1F] text-white mt-1"
               />
               <ValidationError
                 prefix="Email"
@@ -41,7 +41,7 @@ function Contact() {
               name="message"
               rows={5}
               placeholder="Enter your message"
-              className="border border-none focus:outline-[#FF0101] outline-none px-4 py-4 w-full rounded-lg bg-[#1F1F1F] text-white mt-1"
+              className="border border-none focus:outline-[#139B43] outline-none px-4 py-4 w-full rounded-lg bg-[#1F1F1F] text-white mt-1"
             />
             <ValidationError
               prefix="Message"
@@ -53,7 +53,7 @@ function Contact() {
             <button
               type="submit"
               disabled={state.submitting}
-              className="py-4 px-8 rounded-lg hover:cursor-pointer bg-gradient-to-r from-[#b70101] to-[#ff0101] hover:from-[#b70101] hover:to-[#ff3131]"
+              className="py-4 px-8 rounded-lg hover:cursor-pointer bg-gradient-to-r from-[#139B43] to-[#139b43] hover:from-[#139B43] hover:to-[#31ad5d] "
             >
               Send
             </button>

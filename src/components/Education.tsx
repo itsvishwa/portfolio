@@ -14,7 +14,7 @@ function Education() {
               },
             },
             token: {
-              colorPrimary: "#FF0101",
+              colorPrimary: "#139B43",
               colorTextDisabled: "#1F1F1F",
               colorSplit: "#1F1F1F",
             },
